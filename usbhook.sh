@@ -45,9 +45,9 @@ chmod 777 -R /tmp/"$DEVICE"
 umount /tmp/"$DEVICE"
 rm -r /tmp/"$DEVICE"
 
-echo "Copie vers $DEVICE effectuée !"
+echo "Copy to $DEVICE  >> Done !"
 
 export DISPLAY=:0
-sudo -u stf notify-send "Copie vers $DEVICE effectuée !" -t 5000
+sudo -u stf notify-send "Copy to $DEVICE >> Done !" -t 5000
 
 exit 0
